@@ -10,6 +10,15 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var passWord: UITextField!
+    @IBOutlet weak var userName: UITextField!
+    @IBAction func logIn(sender: AnyObject) {
+        let user = User();
+        user.username = userName.text
+        user.password = passWord.text
+        Context.setUser(user)
+        self.navigationController?.popToRootViewControllerAnimated(true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -15,8 +15,7 @@ class InicioTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var rightAddBarButtonItem:UIBarButtonItem = UIBarButtonItem(title: "Log in", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(addTapped))
-        self.navigationItem.setRightBarButtonItems([rightAddBarButtonItem], animated: true)
+
         if (dataSourceArray == nil) {
 //            dataSourceArray = GruposSingleton.getGrupos()
                 var pm:PaymentMethodSearchService = PaymentMethodSearchService()
@@ -33,6 +32,15 @@ class InicioTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    override func viewWillAppear(animated:Bool) {
+        if (Context.getUser().username == nil){
+            var rightAddBarButtonItem:UIBarButtonItem = UIBarButtonItem(title: "Log in", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(addTapped))
+            self.navigationItem.setRightBarButtonItems([rightAddBarButtonItem], animated: true)
+        } else {
+            let rightAddBarButtonItem:UIBarButtonItem = UIBarButtonItem(title: Context.getUser().username, style: UIBarButtonItemStyle.Plain, target: self, action: nil)
+            self.navigationItem.setRightBarButtonItems([rightAddBarButtonItem], animated: true)
+        }
     }
     func addTapped (sender:UIButton) {
         var logVC = LoginViewController();

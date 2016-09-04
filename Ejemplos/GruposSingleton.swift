@@ -11,9 +11,9 @@ import UIKit
 
 class GruposSingleton: NSObject {
     private static let sharedGrupos = GruposSingleton()
-    class var sharedInstance: GruposSingleton {
-        return sharedGrupos
-    }
+//    class var sharedInstance: GruposSingleton {
+//        return sharedGrupos
+//    }
     var grupos:[ObjectModel] = Array()
     private override init() {
         
@@ -25,8 +25,6 @@ class GruposSingleton: NSObject {
         }
         
     }
-
-    
     static func getGrupos()->[ObjectModel]{
         return sharedGrupos.grupos
     }
