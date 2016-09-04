@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>paymentMethods</key>
+		<array/>
+		<key>name</key>
+		<string>Ticket</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tranferencia Bancarias</string>
+		<key>paymentMethods</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Efectivo</string>
+		<key>paymentMethods</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tarjetas de Credito</string>
+		<key>paymentMethods</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Visa</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Master</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>amex</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

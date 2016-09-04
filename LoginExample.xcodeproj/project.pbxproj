@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4B81C4561D75FDB800143BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4551D75FDB800143BCC /* AppDelegate.swift */; };
-		4B81C4581D75FDB800143BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4571D75FDB800143BCC /* ViewController.swift */; };
-		4B81C45B1D75FDB800143BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C4591D75FDB800143BCC /* Main.storyboard */; };
 		4B81C45D1D75FDB800143BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C45C1D75FDB800143BCC /* Assets.xcassets */; };
 		4B81C4601D75FDB800143BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C45E1D75FDB800143BCC /* LaunchScreen.storyboard */; };
 		4B81C46B1D75FDB900143BCC /* EjemplosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C46A1D75FDB900143BCC /* EjemplosTests.swift */; };
 		4B81C4761D75FDB900143BCC /* EjemplosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4751D75FDB900143BCC /* EjemplosUITests.swift */; };
+		4B81C4891D7603FB00143BCC /* PagarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4871D7603FB00143BCC /* PagarViewController.swift */; };
+		4B81C48A1D7603FB00143BCC /* PagarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C4881D7603FB00143BCC /* PagarViewController.xib */; };
+		4B81C4911D760F3600143BCC /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C48F1D760F3600143BCC /* CongratsViewController.swift */; };
+		4B81C4921D760F3600143BCC /* CongratsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C4901D760F3600143BCC /* CongratsViewController.xib */; };
+		4B81C4961D761A6700143BCC /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4951D761A6700143BCC /* Grupo.swift */; };
+		4B81C4981D761A8C00143BCC /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4971D761A8C00143BCC /* PaymentMethod.swift */; };
+		4B81C49A1D761B5B00143BCC /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4991D761B5B00143BCC /* ObjectModel.swift */; };
+		4B81C49D1D761BF700143BCC /* InicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C49B1D761BF700143BCC /* InicioTableViewController.swift */; };
+		4B81C49E1D761BF700143BCC /* InicioTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C49C1D761BF700143BCC /* InicioTableViewController.xib */; };
+		4B81C4A01D774DAC00143BCC /* GruposSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C49F1D774DAC00143BCC /* GruposSingleton.swift */; };
+		4B81C4A31D775B2100143BCC /* Grupos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C4A21D775B2100143BCC /* Grupos.plist */; };
+		4B81C4A51D7890B300143BCC /* PaymentMethodSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4A41D7890B300143BCC /* PaymentMethodSearchService.swift */; };
+		4B81C4A71D78953600143BCC /* MercadoPagoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4A61D78953600143BCC /* MercadoPagoService.swift */; };
+		4B81C4A91D789BC600143BCC /* PaymentMethodSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4A81D789BC600143BCC /* PaymentMethodSearch.swift */; };
+		4B81C4AD1D78A26F00143BCC /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4AC1D78A26F00143BCC /* JSON.swift */; };
+		4B81C4AF1D79FC0100143BCC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4AE1D79FC0100143BCC /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +48,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B81C4521D75FDB700143BCC /* Ejemplos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejemplos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B81C4521D75FDB700143BCC /* LoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B81C4551D75FDB800143BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B81C4571D75FDB800143BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B81C45A1D75FDB800143BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B81C45C1D75FDB800143BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B81C45F1D75FDB800143BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B81C4611D75FDB800143BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B81C4661D75FDB900143BCC /* EjemplosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemplosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B81C4661D75FDB900143BCC /* LoginExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B81C46A1D75FDB900143BCC /* EjemplosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemplosTests.swift; sourceTree = "<group>"; };
 		4B81C46C1D75FDB900143BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B81C4711D75FDB900143BCC /* EjemplosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemplosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B81C4711D75FDB900143BCC /* LoginExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B81C4751D75FDB900143BCC /* EjemplosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemplosUITests.swift; sourceTree = "<group>"; };
 		4B81C4771D75FDB900143BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B81C4871D7603FB00143BCC /* PagarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagarViewController.swift; sourceTree = "<group>"; };
+		4B81C4881D7603FB00143BCC /* PagarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagarViewController.xib; sourceTree = "<group>"; };
+		4B81C48F1D760F3600143BCC /* CongratsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		4B81C4901D760F3600143BCC /* CongratsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CongratsViewController.xib; sourceTree = "<group>"; };
+		4B81C4951D761A6700143BCC /* Grupo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
+		4B81C4971D761A8C00143BCC /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		4B81C4991D761B5B00143BCC /* ObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectModel.swift; sourceTree = "<group>"; };
+		4B81C49B1D761BF700143BCC /* InicioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioTableViewController.swift; sourceTree = "<group>"; };
+		4B81C49C1D761BF700143BCC /* InicioTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InicioTableViewController.xib; sourceTree = "<group>"; };
+		4B81C49F1D774DAC00143BCC /* GruposSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GruposSingleton.swift; sourceTree = "<group>"; };
+		4B81C4A21D775B2100143BCC /* Grupos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Grupos.plist; sourceTree = "<group>"; };
+		4B81C4A41D7890B300143BCC /* PaymentMethodSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodSearchService.swift; sourceTree = "<group>"; };
+		4B81C4A61D78953600143BCC /* MercadoPagoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MercadoPagoService.swift; sourceTree = "<group>"; };
+		4B81C4A81D789BC600143BCC /* PaymentMethodSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodSearch.swift; sourceTree = "<group>"; };
+		4B81C4AC1D78A26F00143BCC /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		4B81C4AE1D79FC0100143BCC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +105,9 @@
 		4B81C4491D75FDB700143BCC = {
 			isa = PBXGroup;
 			children = (
-				4B81C4541D75FDB800143BCC /* Ejemplos */,
-				4B81C4691D75FDB900143BCC /* EjemplosTests */,
-				4B81C4741D75FDB900143BCC /* EjemplosUITests */,
+				4B81C4541D75FDB800143BCC /* LoginExample */,
+				4B81C4691D75FDB900143BCC /* LoginExampleTests */,
+				4B81C4741D75FDB900143BCC /* LoginExampleUITests */,
 				4B81C4531D75FDB700143BCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +115,107 @@
 		4B81C4531D75FDB700143BCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B81C4521D75FDB700143BCC /* Ejemplos.app */,
-				4B81C4661D75FDB900143BCC /* EjemplosTests.xctest */,
-				4B81C4711D75FDB900143BCC /* EjemplosUITests.xctest */,
+				4B81C4521D75FDB700143BCC /* LoginExample.app */,
+				4B81C4661D75FDB900143BCC /* LoginExample.xctest */,
+				4B81C4711D75FDB900143BCC /* LoginExample.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B81C4541D75FDB800143BCC /* Ejemplos */ = {
+		4B81C4541D75FDB800143BCC /* LoginExample */ = {
 			isa = PBXGroup;
 			children = (
+				4B81C4AA1D78A24400143BCC /* Util */,
+				4B81C4A11D775AF200143BCC /* Services */,
+				4B81C4941D7619CF00143BCC /* Model */,
+				4B81C4931D7619AE00143BCC /* ViewControllers */,
 				4B81C4551D75FDB800143BCC /* AppDelegate.swift */,
-				4B81C4571D75FDB800143BCC /* ViewController.swift */,
-				4B81C4591D75FDB800143BCC /* Main.storyboard */,
 				4B81C45C1D75FDB800143BCC /* Assets.xcassets */,
 				4B81C45E1D75FDB800143BCC /* LaunchScreen.storyboard */,
 				4B81C4611D75FDB800143BCC /* Info.plist */,
 			);
+			name = LoginExample;
 			path = Ejemplos;
 			sourceTree = "<group>";
 		};
-		4B81C4691D75FDB900143BCC /* EjemplosTests */ = {
+		4B81C4691D75FDB900143BCC /* LoginExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				4B81C46A1D75FDB900143BCC /* EjemplosTests.swift */,
 				4B81C46C1D75FDB900143BCC /* Info.plist */,
 			);
+			name = LoginExampleTests;
 			path = EjemplosTests;
 			sourceTree = "<group>";
 		};
-		4B81C4741D75FDB900143BCC /* EjemplosUITests */ = {
+		4B81C4741D75FDB900143BCC /* LoginExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4B81C4751D75FDB900143BCC /* EjemplosUITests.swift */,
 				4B81C4771D75FDB900143BCC /* Info.plist */,
 			);
+			name = LoginExampleUITests;
 			path = EjemplosUITests;
+			sourceTree = "<group>";
+		};
+		4B81C4931D7619AE00143BCC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C4871D7603FB00143BCC /* PagarViewController.swift */,
+				4B81C4881D7603FB00143BCC /* PagarViewController.xib */,
+				4B81C48F1D760F3600143BCC /* CongratsViewController.swift */,
+				4B81C4901D760F3600143BCC /* CongratsViewController.xib */,
+				4B81C49B1D761BF700143BCC /* InicioTableViewController.swift */,
+				4B81C49C1D761BF700143BCC /* InicioTableViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4B81C4941D7619CF00143BCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C4951D761A6700143BCC /* Grupo.swift */,
+				4B81C4971D761A8C00143BCC /* PaymentMethod.swift */,
+				4B81C4991D761B5B00143BCC /* ObjectModel.swift */,
+				4B81C4A81D789BC600143BCC /* PaymentMethodSearch.swift */,
+				4B81C4AE1D79FC0100143BCC /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4B81C4A11D775AF200143BCC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C4A61D78953600143BCC /* MercadoPagoService.swift */,
+				4B81C49F1D774DAC00143BCC /* GruposSingleton.swift */,
+				4B81C4A21D775B2100143BCC /* Grupos.plist */,
+				4B81C4A41D7890B300143BCC /* PaymentMethodSearchService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4B81C4AA1D78A24400143BCC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C4AB1D78A24E00143BCC /* Frameworks */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		4B81C4AB1D78A24E00143BCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C4AC1D78A26F00143BCC /* JSON.swift */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B81C4511D75FDB700143BCC /* Ejemplos */ = {
+		4B81C4511D75FDB700143BCC /* LoginExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B81C47A1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "Ejemplos" */;
+			buildConfigurationList = 4B81C47A1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "LoginExample" */;
 			buildPhases = (
 				4B81C44E1D75FDB700143BCC /* Sources */,
 				4B81C44F1D75FDB700143BCC /* Frameworks */,
@@ -140,14 +225,14 @@
 			);
 			dependencies = (
 			);
-			name = Ejemplos;
+			name = LoginExample;
 			productName = Ejemplos;
-			productReference = 4B81C4521D75FDB700143BCC /* Ejemplos.app */;
+			productReference = 4B81C4521D75FDB700143BCC /* LoginExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B81C4651D75FDB900143BCC /* EjemplosTests */ = {
+		4B81C4651D75FDB900143BCC /* LoginExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B81C47D1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "EjemplosTests" */;
+			buildConfigurationList = 4B81C47D1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "LoginExampleTests" */;
 			buildPhases = (
 				4B81C4621D75FDB900143BCC /* Sources */,
 				4B81C4631D75FDB900143BCC /* Frameworks */,
@@ -158,14 +243,14 @@
 			dependencies = (
 				4B81C4681D75FDB900143BCC /* PBXTargetDependency */,
 			);
-			name = EjemplosTests;
+			name = LoginExampleTests;
 			productName = EjemplosTests;
-			productReference = 4B81C4661D75FDB900143BCC /* EjemplosTests.xctest */;
+			productReference = 4B81C4661D75FDB900143BCC /* LoginExample.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4B81C4701D75FDB900143BCC /* EjemplosUITests */ = {
+		4B81C4701D75FDB900143BCC /* LoginExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B81C4801D75FDB900143BCC /* Build configuration list for PBXNativeTarget "EjemplosUITests" */;
+			buildConfigurationList = 4B81C4801D75FDB900143BCC /* Build configuration list for PBXNativeTarget "LoginExampleUITests" */;
 			buildPhases = (
 				4B81C46D1D75FDB900143BCC /* Sources */,
 				4B81C46E1D75FDB900143BCC /* Frameworks */,
@@ -176,9 +261,9 @@
 			dependencies = (
 				4B81C4731D75FDB900143BCC /* PBXTargetDependency */,
 			);
-			name = EjemplosUITests;
+			name = LoginExampleUITests;
 			productName = EjemplosUITests;
-			productReference = 4B81C4711D75FDB900143BCC /* EjemplosUITests.xctest */;
+			productReference = 4B81C4711D75FDB900143BCC /* LoginExample.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +289,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B81C44D1D75FDB700143BCC /* Build configuration list for PBXProject "Ejemplos" */;
+			buildConfigurationList = 4B81C44D1D75FDB700143BCC /* Build configuration list for PBXProject "LoginExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +302,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B81C4511D75FDB700143BCC /* Ejemplos */,
-				4B81C4651D75FDB900143BCC /* EjemplosTests */,
-				4B81C4701D75FDB900143BCC /* EjemplosUITests */,
+				4B81C4511D75FDB700143BCC /* LoginExample */,
+				4B81C4651D75FDB900143BCC /* LoginExampleTests */,
+				4B81C4701D75FDB900143BCC /* LoginExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B81C4A31D775B2100143BCC /* Grupos.plist in Resources */,
+				4B81C4921D760F3600143BCC /* CongratsViewController.xib in Resources */,
 				4B81C4601D75FDB800143BCC /* LaunchScreen.storyboard in Resources */,
+				4B81C49E1D761BF700143BCC /* InicioTableViewController.xib in Resources */,
+				4B81C48A1D7603FB00143BCC /* PagarViewController.xib in Resources */,
 				4B81C45D1D75FDB800143BCC /* Assets.xcassets in Resources */,
-				4B81C45B1D75FDB800143BCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B81C4581D75FDB800143BCC /* ViewController.swift in Sources */,
+				4B81C4AF1D79FC0100143BCC /* User.swift in Sources */,
+				4B81C4A91D789BC600143BCC /* PaymentMethodSearch.swift in Sources */,
+				4B81C4911D760F3600143BCC /* CongratsViewController.swift in Sources */,
+				4B81C4981D761A8C00143BCC /* PaymentMethod.swift in Sources */,
+				4B81C4AD1D78A26F00143BCC /* JSON.swift in Sources */,
+				4B81C4A71D78953600143BCC /* MercadoPagoService.swift in Sources */,
+				4B81C4A51D7890B300143BCC /* PaymentMethodSearchService.swift in Sources */,
+				4B81C49D1D761BF700143BCC /* InicioTableViewController.swift in Sources */,
+				4B81C4A01D774DAC00143BCC /* GruposSingleton.swift in Sources */,
+				4B81C49A1D761B5B00143BCC /* ObjectModel.swift in Sources */,
+				4B81C4961D761A6700143BCC /* Grupo.swift in Sources */,
 				4B81C4561D75FDB800143BCC /* AppDelegate.swift in Sources */,
+				4B81C4891D7603FB00143BCC /* PagarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,25 +381,17 @@
 /* Begin PBXTargetDependency section */
 		4B81C4681D75FDB900143BCC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B81C4511D75FDB700143BCC /* Ejemplos */;
+			target = 4B81C4511D75FDB700143BCC /* LoginExample */;
 			targetProxy = 4B81C4671D75FDB900143BCC /* PBXContainerItemProxy */;
 		};
 		4B81C4731D75FDB900143BCC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B81C4511D75FDB700143BCC /* Ejemplos */;
+			target = 4B81C4511D75FDB700143BCC /* LoginExample */;
 			targetProxy = 4B81C4721D75FDB900143BCC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B81C4591D75FDB800143BCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B81C45A1D75FDB800143BCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B81C45E1D75FDB800143BCC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -398,22 +489,20 @@
 		4B81C47B1D75FDB900143BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ejemplos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edentorers.Ejemplos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edentorers.LoginExample;
+				PRODUCT_NAME = LoginExample;
 			};
 			name = Debug;
 		};
 		4B81C47C1D75FDB900143BCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ejemplos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edentorers.Ejemplos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edentorers.LoginExample;
+				PRODUCT_NAME = LoginExample;
 			};
 			name = Release;
 		};
@@ -424,8 +513,8 @@
 				INFOPLIST_FILE = EjemplosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edentorers.EjemplosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ejemplos.app/Ejemplos";
+				PRODUCT_NAME = LoginExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginExample.app/LoginExample";
 			};
 			name = Debug;
 		};
@@ -436,8 +525,8 @@
 				INFOPLIST_FILE = EjemplosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edentorers.EjemplosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ejemplos.app/Ejemplos";
+				PRODUCT_NAME = LoginExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginExample.app/LoginExample";
 			};
 			name = Release;
 		};
@@ -447,7 +536,7 @@
 				INFOPLIST_FILE = EjemplosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edentorers.EjemplosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LoginExample;
 				TEST_TARGET_NAME = Ejemplos;
 			};
 			name = Debug;
@@ -458,7 +547,7 @@
 				INFOPLIST_FILE = EjemplosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edentorers.EjemplosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LoginExample;
 				TEST_TARGET_NAME = Ejemplos;
 			};
 			name = Release;
@@ -466,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B81C44D1D75FDB700143BCC /* Build configuration list for PBXProject "Ejemplos" */ = {
+		4B81C44D1D75FDB700143BCC /* Build configuration list for PBXProject "LoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B81C4781D75FDB900143BCC /* Debug */,
@@ -475,29 +564,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B81C47A1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "Ejemplos" */ = {
+		4B81C47A1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "LoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B81C47B1D75FDB900143BCC /* Debug */,
 				4B81C47C1D75FDB900143BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4B81C47D1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "EjemplosTests" */ = {
+		4B81C47D1D75FDB900143BCC /* Build configuration list for PBXNativeTarget "LoginExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B81C47E1D75FDB900143BCC /* Debug */,
 				4B81C47F1D75FDB900143BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4B81C4801D75FDB900143BCC /* Build configuration list for PBXNativeTarget "EjemplosUITests" */ = {
+		4B81C4801D75FDB900143BCC /* Build configuration list for PBXNativeTarget "LoginExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B81C4811D75FDB900143BCC /* Debug */,
 				4B81C4821D75FDB900143BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

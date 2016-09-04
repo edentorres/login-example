@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B81C4511D75FDB700143BCC"
-               BuildableName = "Ejemplos.app"
-               BlueprintName = "Ejemplos"
-               ReferencedContainer = "container:Ejemplos.xcodeproj">
+               BuildableName = "LoginExample.app"
+               BlueprintName = "LoginExample"
+               ReferencedContainer = "container:LoginExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B81C4651D75FDB900143BCC"
-               BuildableName = "EjemplosTests.xctest"
-               BlueprintName = "EjemplosTests"
-               ReferencedContainer = "container:Ejemplos.xcodeproj">
+               BuildableName = "LoginExample.xctest"
+               BlueprintName = "LoginExampleTests"
+               ReferencedContainer = "container:LoginExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B81C4701D75FDB900143BCC"
-               BuildableName = "EjemplosUITests.xctest"
-               BlueprintName = "EjemplosUITests"
-               ReferencedContainer = "container:Ejemplos.xcodeproj">
+               BuildableName = "LoginExample.xctest"
+               BlueprintName = "LoginExampleUITests"
+               ReferencedContainer = "container:LoginExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B81C4511D75FDB700143BCC"
-            BuildableName = "Ejemplos.app"
-            BlueprintName = "Ejemplos"
-            ReferencedContainer = "container:Ejemplos.xcodeproj">
+            BuildableName = "LoginExample.app"
+            BlueprintName = "LoginExample"
+            ReferencedContainer = "container:LoginExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B81C4511D75FDB700143BCC"
-            BuildableName = "Ejemplos.app"
-            BlueprintName = "Ejemplos"
-            ReferencedContainer = "container:Ejemplos.xcodeproj">
+            BuildableName = "LoginExample.app"
+            BlueprintName = "LoginExample"
+            ReferencedContainer = "container:LoginExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B81C4511D75FDB700143BCC"
-            BuildableName = "Ejemplos.app"
-            BlueprintName = "Ejemplos"
-            ReferencedContainer = "container:Ejemplos.xcodeproj">
+            BuildableName = "LoginExample.app"
+            BlueprintName = "LoginExample"
+            ReferencedContainer = "container:LoginExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -12,10 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var nav:UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Initialize window
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.backgroundColor = UIColor.whiteColor()
+        
+        self.nav = UINavigationController(rootViewController: InicioTableViewController())
+        
+        // Put vaultController at the top of navigator.
+        self.window?.rootViewController = self.nav
+        
+        self.window?.makeKeyAndVisible()
         return true
     }
 
