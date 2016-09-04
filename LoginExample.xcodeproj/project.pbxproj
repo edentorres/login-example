@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B14B64D1D7BDA7600E3986D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B64B1D7BDA7600E3986D /* LoginViewController.swift */; };
+		4B14B64E1D7BDA7600E3986D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B14B64C1D7BDA7600E3986D /* LoginViewController.xib */; };
 		4B81C4561D75FDB800143BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C4551D75FDB800143BCC /* AppDelegate.swift */; };
 		4B81C45D1D75FDB800143BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C45C1D75FDB800143BCC /* Assets.xcassets */; };
 		4B81C4601D75FDB800143BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B81C45E1D75FDB800143BCC /* LaunchScreen.storyboard */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B14B64B1D7BDA7600E3986D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B14B64C1D7BDA7600E3986D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		4B81C4521D75FDB700143BCC /* LoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B81C4551D75FDB800143BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B81C45C1D75FDB800143BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				4B81C4901D760F3600143BCC /* CongratsViewController.xib */,
 				4B81C49B1D761BF700143BCC /* InicioTableViewController.swift */,
 				4B81C49C1D761BF700143BCC /* InicioTableViewController.xib */,
+				4B14B64B1D7BDA7600E3986D /* LoginViewController.swift */,
+				4B14B64C1D7BDA7600E3986D /* LoginViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 				4B81C4601D75FDB800143BCC /* LaunchScreen.storyboard in Resources */,
 				4B81C49E1D761BF700143BCC /* InicioTableViewController.xib in Resources */,
 				4B81C48A1D7603FB00143BCC /* PagarViewController.xib in Resources */,
+				4B14B64E1D7BDA7600E3986D /* LoginViewController.xib in Resources */,
 				4B81C45D1D75FDB800143BCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B14B64D1D7BDA7600E3986D /* LoginViewController.swift in Sources */,
 				4B81C4AF1D79FC0100143BCC /* User.swift in Sources */,
 				4B81C4A91D789BC600143BCC /* PaymentMethodSearch.swift in Sources */,
 				4B81C4911D760F3600143BCC /* CongratsViewController.swift in Sources */,

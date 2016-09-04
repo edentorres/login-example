@@ -35,7 +35,8 @@ class InicioTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     func addTapped (sender:UIButton) {
-        print("add pressed")
+        var logVC = LoginViewController();
+        self.navigationController?.pushViewController(logVC, animated: true)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
