@@ -1,0 +1,2 @@
+# login-example
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/16058bd8a65040ba908b4c2163705d33)](https://www.codacy.com/app/eden-etorres/login-example?utm_source=github.com&utm_medium=referral&utm_content=edentorres/login-example&utm_campaign=badger)
